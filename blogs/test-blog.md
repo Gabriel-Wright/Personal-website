@@ -3,65 +3,52 @@ layout: standard-blog
 title: test-blog
 ---
 
-# Welcome to test page
+# Test Markdown Document
 
-I'm excited to share tests here!
+This is to test **Common Markdown Features** I might need for this site.
 
-# Welcome to test page
+## Introduction
 
-I'm excited to share tests here!
+Markdown is quite cool i think - and it can add lots of different formatting.
 
-# Welcome to test page
+ - Easy to write and read
+ - Converts to clean HTML
+ - Supports lots of useful formatting features
 
-I'm excited to share tests here!
-# Welcome to test page
+## Lists
 
-I'm excited to share tests here!
-# Welcome to test page
+### Unordered List
 
-I'm excited to share tests here!
-# Welcome to test page
+- Item 1
+- Item 2
+    - Subitem 2a
+    - Subitem 2b
+- Item 3
 
-I'm excited to share tests here!# Welcome to test page
+## Links and images
 
-I'm excited to share tests here!# Welcome to test page
+You can add [links](https://gabrielwright.xyz) easily.
 
-I'm excited to share tests here!# Welcome to test page
+Here are 3 images in different sizes:
+![TestImage](/assets/images/memoriesOfMurder.jpg){:.small-image}
+![TestImage](/assets/images/memoriesOfMurder.jpg){:.medium-image}
+![TestImage](/assets/images/memoriesOfMurder.jpg){:.large-image}
+//
+## Code blocks
 
-I'm excited to share tests here!# Welcome to test page
+  Inline code blocks are like: `console.log('Hello world!');`
 
-I'm excited to share tests here!# Welcome to test page
+  Longer code blocks are like:
+  
+  ```
+  function greet(person) {
+    console.log('Hello, ${person}!');
+    
+    more functions
+  }
+  ```
 
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!# Welcome to test page
-
-I'm excited to share tests here!
+  # youtube videos test
+<div class="youtube-player">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OgsHl7_KB6o?si=rRo4QDJWly3uFH5X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
