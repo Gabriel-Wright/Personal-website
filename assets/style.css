@@ -1,0 +1,77 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('fonts/Inconsolata-Regular.woff2') format('woff2'),
+        url('fonts/Inconsolata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.header {
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    background-color:white;
+    margin:0;
+    padding:0;
+}
+
+.header .header-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+.header-inner .header-title {
+    display:flex;
+    align-items: center;
+    height: 100%;
+    padding: 10px;
+}
+
+.header-inner .header-title h1 {
+    font-family: Inconsolata, monospace;
+    font-size:24px;
+    color:#628073
+}
+
+.header-links {
+    display:flex;
+    height: 100%;
+    font-family: Inconsolata, monospace;
+    font-size: 18px;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+
+}
+
+.header-links ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.header-links li {
+    margin-right: 10px;
+}
+
+.header-links li:last-of-type {
+    margin-right:0;
+}
+
+.header-links span {
+    display: flex;
+    align-items: center;
+}
