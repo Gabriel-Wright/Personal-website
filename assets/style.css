@@ -17,7 +17,64 @@ html, body {
 /* Standard Blog styling */
 
 body { 
-    background-color: green;;
+    background-color: white;
+}
+
+.standard-blog-content {
+    font-family: Inconsolata, sans-serif;;
+    display: block;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.standard-blog-content img{
+    height: auto;
+    display:block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.standard-blog-content img.small-image {
+    max-width: 40%;
+}
+
+.standard-blog-content img.medium-image {
+    max-width: 60%;
+}
+
+.standard-blog-content img.large-image {
+    max-width: 80%;
+}
+
+ /* Standard code block styling - sourced online */
+
+.standard-blog-content code {
+    font-family: 'Fira Mono', 'Consolas', 'Menlo', 'Monaco', 'Inconsolata', monospace;
+    background: #f5f5f7;
+    color: #222;
+    padding: 0.2em 0.5em;
+    border-radius: 5px;
+    font-size: 0.97em;
+    line-height: 1.5;
+    word-break: break-word;
+}
+
+/* Multiline code blocks */
+.standard-blog-content pre code {
+    display: block;
+    background: #f5f5f7;
+    color: #222;
+    padding: 1em;
+    border-radius: 8px;
+    font-size: 1em;
+    overflow-x: auto;
+    line-height: 1.6;
+    margin: 1em 0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
 /* Header Styling */
@@ -57,7 +114,7 @@ body {
 }
 
 .header-inner .header-title h1 {
-    font-family: Inconsolata, monospace;
+    font-family: Inconsolata, sans-serif;
     font-size:24px;
     color:#628073
 }
@@ -65,7 +122,7 @@ body {
 .header-links {
     display:flex;
     height: 100%;
-    font-family: Inconsolata, monospace;
+    font-family: Inconsolata, sans-serif;
     font-size: 18px;
     list-style: none;
     padding: 10px;
