@@ -33,7 +33,7 @@ Here are 3 images in different sizes:
 ![TestImage](/assets/images/memoriesOfMurder.jpg){:.small-image}
 ![TestImage](/assets/images/memoriesOfMurder.jpg){:.medium-image}
 ![TestImage](/assets/images/memoriesOfMurder.jpg){:.large-image}
-
+//
 ## Code blocks
 
   Inline code blocks are like: `console.log('Hello world!');`
