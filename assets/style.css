@@ -119,6 +119,25 @@ body {
     color:#628073
 }
 
+.header-inner .header-title h1 a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease; 
+}
+
+.header-inner .header-title h1 a:hover {
+    /* color: #4d7765; */
+    color: #33ce8b;
+    transition: all 0.3s ease; 
+    scale:0.95;
+}
+
+.header-inner .header-title h1 a:active {
+    color: 4d7765;
+    transition: all 0.3s ease; 
+    scale:0.95;
+}
+
 .header-links {
     display:flex;
     height: 100%;
