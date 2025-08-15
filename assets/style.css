@@ -14,7 +14,94 @@ html, body {
     font-display: swap;
 }
 
+/* Main page strips */
+
+.main-page-strips {
+    width: 100%;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.main-strip-content {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.2s ease;
+    display: block;
+    text-decoration: none;
+    display: flex;
+    width: 50%;
+    align-items:center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main-strip-content:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transition: background-color 0.2s ease;
+}
+
+.main-strip-text {
+    flex: 1;
+    max-width: 50%;
+    font-family: Inconsolata, sans-serif;
+}
+
+.main-strip-text.left {
+    text-align: left;
+}
+
+.main-strip-text.right {
+    text-align: right;
+}
+
+.main-strip-image { 
+    flex: 1;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.main-strip-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Specific strip styling */
+
+#gabriel-projects  {
+    background-color: blue;
+}
+
+#gabriel-logos {
+    background-color: green;
+}
+
+#gabriel-blogs  {
+    background-color: red;
+}
+
+#gabriel-blogs .main-strip-image {
+    order: 0;
+}
+
+#gabriel-blogs .main-strip-text {
+    order: 1;
+}
+
+
 /* Standard Blog styling */
+
 
 body { 
     background-color: white;
