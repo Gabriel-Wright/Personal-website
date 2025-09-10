@@ -3,6 +3,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-size: 16px;
 }
 
 @font-face {
@@ -14,7 +15,7 @@ html, body {
     font-display: swap;
 }
 
-/* Main page strips */
+/* Main page LEGACY strips */
 
 .main-page-strips {
     width: 100%;
@@ -99,6 +100,94 @@ html, body {
     order: 1;
 }
 
+/* New mainPage styling */
+#main-body {
+    background: url(images/gridB.png) repeat;
+    animation:scrollBackground 120s linear infinite;
+}
+
+@keyframes scrollBackground {
+    0% {
+        background-position-x: 0%;
+        background-position-y: 0%;
+    }
+    100% {
+        background-position-x: 100%;
+        background-position-y: 100%;
+    }
+}
+
+#main-center-stack {
+    /* min-height: calc(100vh - 140px); Adjust for header height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#name-main-page {
+    color:#628073;
+    transition:color 0.3s ease;
+    transition: animation 0.3 ease;
+    font-family: Inconsolata, sans-serif;
+    font-size: 2.5rem;
+}
+
+#name-main-page:hover {
+    color:#33ce8b;
+    animation: breathe 1s ease-in-out infinite;
+}
+
+@keyframes breathe {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-2px);
+    }
+    to {
+        transform: trnalateY(0);
+    }
+}
+/* Image in circle */
+
+#circle {
+    position:static;
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    overflow:hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle img {
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    position:block;
+}
+/* Link box */
+
+#link-box {
+    position: static;
+    background-color: grey;
+    padding: 2rem;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#link-box a {
+    font-family: Inconsolata, sans-serif;
+    display:block;
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
 
 /* Standard Blog styling */
 
@@ -171,7 +260,7 @@ body {
     height: 100px;
     position: sticky;
     top: 0;
-    background-color:white;
+    /* background-color:white; */
     margin:0;
     padding:0;
     border-bottom: 2px white;
