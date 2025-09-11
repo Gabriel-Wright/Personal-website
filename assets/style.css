@@ -102,7 +102,12 @@ html, body {
 
 /* New mainPage styling */
 #main-body {
-    background: url(images/gridB.png) repeat;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: url(images/gridA.png) repeat;
     animation:scrollBackground 120s linear infinite;
 }
 
@@ -118,15 +123,20 @@ html, body {
 }
 
 #main-center-stack {
-    /* min-height: calc(100vh - 140px); Adjust for header height */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+#name-container {
+    border-radius: 50%;
+    display:inline-block;
+    padding:5px;
+}
+
 #name-main-page {
-    color:#628073;
+    color:white;
     transition:color 0.3s ease;
     transition: animation 0.3 ease;
     font-family: Inconsolata, sans-serif;
@@ -172,8 +182,7 @@ html, body {
 
 #link-box {
     position: static;
-    background-color: grey;
-    padding: 2rem;
+    padding: 0.5rem;
     border-radius: 15px;
     text-align: center;
     display: flex;
@@ -192,8 +201,8 @@ html, body {
 /* Standard Blog styling */
 
 
-body { 
-    background-color: white;
+.standard-blog-body { 
+    background-color: #628073;
 }
 
 .standard-blog-content {
@@ -260,15 +269,15 @@ body {
     height: 100px;
     position: sticky;
     top: 0;
-    /* background-color:white; */
+    background-color:#628073;
     margin:0;
     padding:0;
-    border-bottom: 2px white;
+    border-bottom: 4px #628073;
     transition: border-bottom 0.3s ease;
 }
 
 .header.scrolled {
-    border-bottom: 2px solid #f3f2f4;
+    border-bottom: 2px solid #346350;
     transition: border-bottom 0.3s ease;
 }
 
@@ -292,7 +301,7 @@ body {
 .header-inner .header-title h1 {
     font-family: Inconsolata, sans-serif;
     font-size:24px;
-    color:#628073
+    color:white
 }
 
 .header-inner .header-title h1 a {
