@@ -1,6 +1,9 @@
 ---
 layout: standard-blog
 title: test-blog
+date: 2025-09-12
+topics: blog
+description: A test blog for this site
 ---
 
 # Test Markdown Document
