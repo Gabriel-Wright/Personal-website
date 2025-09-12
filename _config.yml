@@ -1,2 +1,7 @@
 theme: null
 markdown: kramdown
+
+collections:
+  blogs:
+    output: true
+    permalink: /blogs/:name/

@@ -1,0 +1,27 @@
+---
+title: Blog
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogs</title>
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+    <h1>Blog Posts</h1>
+    <ul>
+        {% assign sorted_blogs = site.blogs | sort: "date" | reverse %}
+        {% for blog in sorted_blogs %}
+        <li>
+            <a href="{{ blog.url }}">{{ blog.title }}</a>
+            <small>({{ blog.date | date: "%B %d, %Y" }})</small>
+            <p>{{ blog.description }}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
