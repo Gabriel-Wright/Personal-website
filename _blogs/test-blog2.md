@@ -33,9 +33,9 @@ Markdown is quite cool i think - and it can add lots of different formatting.
 You can add [links](https://gabrielwright.xyz) easily.
 
 Here are 3 images in different sizes:
-![TestImage](/assets/images/memoriesOfMurder.jpg){:.small-image}
-![TestImage](/assets/images/memoriesOfMurder.jpg){:.medium-image}
-![TestImage](/assets/images/memoriesOfMurder.jpg){:.large-image}
+![TestImage]({{site.baseurl}}/assets/images/memoriesOfMurder.jpg){:.small-image}
+![TestImage]({{site.baseurl}}/assets/images/memoriesOfMurder.jpg){:.medium-image}
+![TestImage]({{site.baseurl}}/assets/images/memoriesOfMurder.jpg){:.large-image}
 //
 ## Code blocks
 

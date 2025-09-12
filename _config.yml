@@ -1,7 +1,12 @@
 theme: null
 markdown: kramdown
-
+url: "https://gabriel-wright.github.io"
+baseurl: "/Personal-website"   # repo name, or "" if it's a user site
+readme_index:
+  enabled: false
 collections:
   blogs:
     output: true
     permalink: /blogs/:name/
+
+  

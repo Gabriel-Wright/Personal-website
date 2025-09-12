@@ -9,7 +9,7 @@ title: Blog
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blogs</title>
-    <link rel="stylesheet" href="/assets/style.css">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/style.css">
 </head>
 
 <body id="blogs-list-body">
@@ -19,7 +19,7 @@ title: Blog
     <div id="blog-list-container">
         {% assign sorted_blogs = site.blogs | sort: "date" | reverse %}
         {% for blog in sorted_blogs %}
-        <a href="{{blog.url}}" class="blog-list-item-link">
+        <a href="{{site.baseurl}}{{blog.url}}" class="blog-list-item-link">
             <div id="blog-list-item">
                 <h3> {{blog.title}} </h3>
                 <small>({{ blog.date | date: "%B %d, %Y" }}) </small>

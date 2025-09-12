@@ -8,8 +8,8 @@ html, body {
 
 @font-face {
     font-family: 'Inconsolata';
-    src: url('fonts/Inconsolata-Regular.woff2') format('woff2'),
-        url('fonts/Inconsolata-Regular.woff') format('woff');
+    src: url("fonts/Inconsolata-Regular.woff2") format('woff2'),
+        url("fonts/Inconsolata-Regular.woff") format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -107,7 +107,7 @@ html, body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background: url(images/gridC.png) repeat;
+    background: url("images/gridC.png") repeat;
     animation:scrollBackground 120s linear infinite;
 }
 
@@ -201,7 +201,7 @@ html, body {
 /* Blog List Page */
 
 #blogs-list-body {
-    background: url(images/gridC.png) repeat;
+    background: url("images/gridC.png") repeat;
     animation:scrollBackground 120s linear infinite;
 }
 
@@ -266,7 +266,7 @@ html, body {
 
 
 .standard-blog-body { 
-    background: url(images/gridC.png) repeat;
+    background: url("images/gridC.png") repeat;
     animation:scrollBackground 120s linear infinite;
 }
 
@@ -282,6 +282,7 @@ html, body {
     width: 80%;
     align-items: center;
     margin: 0 auto;
+    margin-top: 15px;
     padding-left: 12px;
 }
 
