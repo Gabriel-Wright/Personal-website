@@ -12,16 +12,21 @@ title: Blog
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 
-<body>
-    <h1>Blog Posts</h1>
-    <ul>
+<body id="blogs-list-body">
+    {% include header.html %}
+
+    <h1 id="blog-posts-title">Blog Posts</h1>
+    <div id="blog-list-container">
         {% assign sorted_blogs = site.blogs | sort: "date" | reverse %}
         {% for blog in sorted_blogs %}
-        <li>
-            <a href="{{ blog.url }}">{{ blog.title }}</a>
-            <small>({{ blog.date | date: "%B %d, %Y" }})</small>
-            <p>{{ blog.description }}</p>
-        </li>
+        <a href="{{blog.url}}" class="blog-list-item-link">
+            <div id="blog-list-item">
+                <h3> {{blog.title}} </h3>
+                <small>({{ blog.date | date: "%B %d, %Y" }}) </small>
+                <small>{{ blog.topics}}</small>
+                <p>{{ blog.description }}</p>
+            </div>
+        </a>
         {% endfor %}
-    </ul>
+    </div>
 </body>

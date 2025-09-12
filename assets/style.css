@@ -198,6 +198,70 @@ html, body {
     margin: 10px 0;
 }
 
+/* Blog List Page */
+
+#blogs-list-body {
+    background: url(images/gridC.png) repeat;
+    animation:scrollBackground 120s linear infinite;
+}
+
+#blog-posts-title {
+    font-family: Inconsolata, sans-serif;
+    color: #1A2C4A;
+    text-align: center;
+}
+
+#blog-list-container {
+    font-family: Inconsolata, sans-serif;
+}
+
+.blog-list-item-link {
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    margin: 0 auto 18px auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .blog-list-item-link {
+    width: 75%;
+  }
+}
+
+#blog-list-item {
+    background-color: #7F9ED3;
+    display: block;
+    border-radius: 5px;
+    border-style: solid;
+    border-color:#4C78C1;
+    align-items: center;
+    padding-left: 12px;
+
+}
+
+
+#blog-list-item:hover {
+    background-color: #6B8ED1;
+    transition: background-color 0.3s ease;
+}
+
+#blog-list-item:pressed {
+    background-color:#3d68b1
+}
+
+#blog-list-item p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+    max-width: 90%;
+}
+
+#blog-list-item small {
+    display: block;
+    margin-bottom: 4px;
+}
+
 /* Standard Blog styling */
 
 

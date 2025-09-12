@@ -3,7 +3,7 @@ layout: standard-blog
 title: test-blog2
 date: 2025-08-13
 topics: maa
-description: A newer test blog
+description: A newer test blog because I am cool like that and there's nothing else to say about it what can we even do it about it :) 
 ---
 
 # Test Markdown Document
