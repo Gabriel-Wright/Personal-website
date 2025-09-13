@@ -341,7 +341,88 @@ html, body {
     font-size: 1.05rem;
     line-height: 1.1;
 }
-/* Header Styling */
+
+/* About Page */
+
+#about-body {
+    background: url("images/gridC.png") repeat;
+    animation:scrollBackground 120s linear infinite;
+}
+
+.image-text-strip {
+    align-items: center;
+    background-color: #7F9ED3;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #4C78C1;
+    border-width: 4px;
+    width: 80%;
+    margin: 24px auto;
+    padding: 18px 24px;
+    gap: 24px;
+    overflow: hidden;
+}
+
+.image-text-strip img {
+    width: 375px;
+    float: left;   
+    margin: 0 16px 16px 0; /* space around image */
+    border-radius: 5px;
+}
+
+.image-text-strip p {
+    font-family: Inconsolata, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.3;
+    margin: 0;
+    margin-bottom: 10px;
+    overflow: wrap;
+}
+
+.image-text-strip ul {
+    list-style-position: inside; 
+    padding-left: 1rem;          
+    margin: 0;                   
+}
+
+.image-text-strip li {
+    font-family: Inconsolata, sans-serif;
+    margin-bottom: 1rem;         /* space between list items */
+}
+
+.image-text-strip li p {
+    margin: 0.25rem 0;           
+}
+
+#first-about {
+    width: 50%
+}
+
+#career-education-background {
+    width: 50%;
+}
+
+#career-education-background img {
+    float: right;
+}
+
+#about-title {
+    font-family: Inconsolata, sans-serif;
+    color: #1A2C4A;
+    text-align: center;
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;     /* vertical centering if you set a height */
+    margin: 24px 0;
+}
+
+.pdf {
+    border: 4px solid #4C78C1;
+    border-radius: 5px;
+}/* Header Styling */
 
 .header {
     background-color: rgba(0,0,0,0);

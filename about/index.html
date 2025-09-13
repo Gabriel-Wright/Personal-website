@@ -1,0 +1,58 @@
+---
+---
+<!-- homepage -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Wright</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/style.css">
+</head>
+
+<body id="about-body">
+    {% include header.html %}
+    <h1 id="about-title">About me</h1>
+    <div class="image-text-strip" id="first-about">
+        <img src="{{site.baseurl}}/assets/images/gabeCyprus.png" alt="Gabriel-Cyrpus">
+        <p>Hi, I'm Gabriel, a 25-year-old from the UK who loves creating -- whether that’s software, games, films, or
+            stories. </p>
+        <p> Welcome to my website :)</p>
+        <p>Professionally, I work as a software developer, but I try to spend my free time time working on personal
+            projects as well. This site acts as both a portfolio and a blog: here I'll share what I’ve built (or am
+            still building), how I’m feeling about my projects, and where I think I'm heading. </p>
+        <p>I hope for this site to be part professional showcase, part personal diary.</p>
+    </div>
+    <h1 id="about-title">Career / Education Background</h1>
+    <div class="image-text-strip" id="career-education-background">
+        <img src="{{site.baseurl}}/assets/images/gabrielFujiCrop.jpg" alt="Dude-writing">
+        <p> Currently I'm pursuing a career in software development. My most recent role was at <a
+                href="https://www.diffblue.com/" target="_blank">Diffblue</a> as an SDET. My strongest coding language
+            is <strong>Java</strong>. I’m also confident with <strong>JS</strong> and <strong>C#</strong>. I’m working
+            towards becoming a full-stack developer.</p>
+        <p>I studied at the University of Warwick from 2018 - 2022: </p>
+        <ul>
+            <li><strong>BSc in Mathematics (2018-2021)</strong>
+                <p>I started off studying joint Maths & Philosophy, but later switched to a full Mathematics course.
+                    Philosophy was interesting - but I struggled with how it was examined at University.</p>
+                <p>Specialised in Mathematical Analysis and Abstract Algebra, including real/complex analysis, group
+                    theory and linear alegbra.</p>
+            </li>
+            <li><strong>MSc in Data Analytics (2021-2022)</strong>
+                <p>Switched to Data Analytics for my masters to apply my of maths background to real world problems.</p>
+                <p>Covered Machine Learning, Statistic Modelling and Algorithmic Game Theory. </p>
+                <p>My dissertation focused on convergent states of Opinion Dynamic environments, which felt like a
+                    natural transition from my Mathematics background.</p>
+            </li>
+        </ul>
+    </div>
+    <h1 id="about-title">CV</h1>
+    <div class="pdf-container">
+        <embed src="{{ site.baseurl }}/assets/pdf/CVAug2025GabrielWright.pdf" type="application/pdf" width="80%"
+            height="600px" class="pdf" />
+    </div>
+</body>
+
+</html>
