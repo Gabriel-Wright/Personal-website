@@ -212,6 +212,20 @@ html, body {
     margin: 10px 0;
 }
 
+/* Project List Page */
+
+#projects-list-body {
+    background: url("images/gridC.png") repeat;
+    animation:scrollBackground 120s linear infinite;
+}
+
+#projects-title {
+    font-family: Inconsolata, sans-serif;
+    color: #1A2C4A;
+    text-align: center;
+}
+
+
 /* Blog List Page */
 
 #blogs-list-body {

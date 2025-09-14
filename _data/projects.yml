@@ -1,0 +1,27 @@
+- name: "Chaotic Cats"
+  url: "/chaotic-cats"
+  date: 2025-02-01
+  description: "Released a Multiplayer Party Game on Steam with friends"
+  topic: "Game Development"
+  image: "/assets/images/projects/chaotic-cats/chaoticCatsLogo.png"
+
+- name: "SpringBoot Vaadin Full Stack Web App"
+  url: "/springboot-vaadin-site"
+  date: 2024-04-26
+  description: "Created a full stack web application using SpringBoot and Vaadin"
+  topic: "Software Development"
+  image: "/assets/images/projects/springboot-vaadin-site/vaadinWebsitePreview.png
+
+- name: "Personal Website V2"
+  url: "/personal-website-v2"
+  date: 2025-09-20
+  description: "Redesigned and developed my personal website using Jekyll and GitHub Pages"
+  topic: "Software Development"
+  image: "/assets/images/projects/personal-website-v2/personalWebsiteV2Preview.png"
+
+- name: "Early Software Development Projects"
+  url: "/early-dev-projects"
+  date: 2023-08-15
+  description: "Developed smaller projects to learn programming fundamentals such as a 2d game and Bank Statement Parser"
+  topic: "Software Development"
+  image: "/assets/images/projects/early-dev-projects/earlyDevProjectsPreview.png"
