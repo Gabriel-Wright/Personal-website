@@ -136,7 +136,7 @@ html, body {
 }
 
 #name-main-page {
-    color:white;
+    color:#1A2C4A;
     transition:color 0.3s ease;
     transition: animation 0.3 ease;
     font-family: Inconsolata, sans-serif;
@@ -491,7 +491,7 @@ html, body {
 .header-inner .header-title h1 {
     font-family: Inconsolata, sans-serif;
     font-size:24px;
-    color:white
+    color:#1A2C4A;
 }
 
 .header-inner .header-title h1 a {
@@ -508,7 +508,7 @@ html, body {
 }
 
 .header-inner .header-title h1 a:active {
-    color: 4d7765;
+    color: #ß4d7765;
     transition: all 0.3s ease; 
     scale:0.95;
 }
@@ -549,4 +549,33 @@ html, body {
 
 .footer {
     font-family: Inconsolata, sans-serif;
+}
+
+/* Socials tray */
+
+.socials-tray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+    min-height: 40px; /* Ensures tray has height */
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.social-link svg {
+    width: 32px;
+    height: 32px;
+    display: block;
+    fill: #7163CA; /* Or your preferred color */
+}
+
+.social-link:hover svg {
+    fill: #33ce8b; /* Change color on hover */
+    transition: fill 0.3s ease;
 }
