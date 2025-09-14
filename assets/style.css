@@ -398,6 +398,20 @@ html, body {
     width: 50%
 }
 
+@media (max-width: 1000px) {
+    #first-about {
+        width: 80%;
+        text-align: center;
+    }
+
+    #first-about img {
+        float: none;
+        display:block;
+        max-width:90%;
+        margin: 0 auto 10px;
+    }
+}
+
 #career-education-background {
     width: 50%;
 }
@@ -405,6 +419,21 @@ html, body {
 #career-education-background img {
     float: right;
 }
+
+@media (max-width: 1000px) {
+    #career-education-background {
+        width: 80%;
+        text-align: center;
+    }
+
+    #career-education-background img {
+        float:none;
+        display:block;
+        max-width:90%;
+        margin: 0 auto 10px;
+    }
+}
+
 
 #about-title {
     font-family: Inconsolata, sans-serif;
