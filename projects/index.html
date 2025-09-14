@@ -17,5 +17,17 @@ title: Projects
 
     <h1 id="projects-title">Projects</h1>
     <div id="project-list-container">
+        {% assign sorted_projects = site.data.projects | sort: "date" | reverse %}
+        {% for project in sorted_projects %}
+        <a href="{{ site.baseurl }}{{ project.url }}" class="project-list-item-link">
+            <div class="project-image-text-strip">
+                <img src="{{ site.baseurl }}{{ project.image }}" alt="{{ project.name }} image">
+                <h2>{{ project.name }}</h2>
+                <small>({{ project.date | date: "%B %d, %Y" }})</small>
+                <p>{{ project.topic }}</p>
+                <p>{{ project.description }}</p>
+            </div>
+        </a>
+        {% endfor %}
     </div>
 </body>

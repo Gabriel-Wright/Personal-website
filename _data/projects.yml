@@ -1,27 +1,27 @@
 - name: "Chaotic Cats"
-  url: "/chaotic-cats"
+  url: "/projects/chaotic-cats"
   date: 2025-02-01
   description: "Released a Multiplayer Party Game on Steam with friends"
-  topic: "Game Development"
-  image: "/assets/images/projects/chaotic-cats/chaoticCatsLogo.png"
+  topic: "Game Development, Unity, C#"
+  image: "/assets/images/projects/chaotic-cats/chaotic-cats-preview.jpg"
 
 - name: "SpringBoot Vaadin Full Stack Web App"
-  url: "/springboot-vaadin-site"
+  url: "/projects/springboot-vaadin-site"
   date: 2024-04-26
   description: "Created a full stack web application using SpringBoot and Vaadin"
-  topic: "Software Development"
-  image: "/assets/images/projects/springboot-vaadin-site/vaadinWebsitePreview.png
+  topic: "Software Development, Java, SpringBoot"
+  image: "/assets/images/projects/springboot-vaadin-site/vaadin-web-preview.png"
 
 - name: "Personal Website V2"
-  url: "/personal-website-v2"
+  url: "/projects/personal-website-v2"
   date: 2025-09-20
-  description: "Redesigned and developed my personal website using Jekyll and GitHub Pages"
-  topic: "Software Development"
-  image: "/assets/images/projects/personal-website-v2/personalWebsiteV2Preview.png"
+  description: "Designed and deployed a lightweight personal website (that you're reading from right now!!!) using Jekyll and GitHub Pages"
+  topic: "Software Development, HTML, CSS, JS, Jekyll"
+  image: "/assets/images/projects/personal-website-v2/personal-website-v2-preview.png"
 
 - name: "Early Software Development Projects"
-  url: "/early-dev-projects"
+  url: "/projects/early-dev-projects"
   date: 2023-08-15
   description: "Developed smaller projects to learn programming fundamentals such as a 2d game and Bank Statement Parser"
-  topic: "Software Development"
-  image: "/assets/images/projects/early-dev-projects/earlyDevProjectsPreview.png"
+  topic: "Software Development, Game Development, Java"
+  image: "/assets/images/projects/early-dev-projects/2d-game-preview.png"
