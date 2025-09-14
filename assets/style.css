@@ -111,6 +111,10 @@ html, body {
     animation:scrollBackground 120s linear infinite;
 }
 
+#main-body .socials-tray{
+    margin-top: 0px;
+    margin-bottom: 16px;
+ }
 @keyframes scrollBackground {
     0% {
         background-position-x: 0%;
