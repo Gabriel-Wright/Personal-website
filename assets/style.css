@@ -547,7 +547,7 @@ html, body {
 .pdf-container {
     display: flex;
     justify-content: center; /* horizontal centering */
-    align-items: center;     /* vertical centering if you set a height */
+    align-items: center;     
     margin: 24px 0;
 }
 
@@ -566,6 +566,7 @@ html, body {
     padding:0;
     border-bottom: 2px solid rgba(0,0,0,0); 
     transition: background-color 0.3s ease, border-bottom 0.3s ease;
+    z-index: 1000;
 }
 
 .header.scrolled {
@@ -660,29 +661,108 @@ html, body {
   justify-content: center;
   align-items: center;
   min-height: calc(100vh - 100px); /* avoids header overlap */
-  position: relative; /* so absolute cats can anchor to corners */
+  position: relative; 
   text-align: center;
 }
 
-/* Logo in center */
-#chaotic-cats-logo img {
+
+#chaotic-cats-logo img { /* Logo in center */
   width: 800px;
   max-width: 70%;
   display: block;
   margin: 0 auto;
   cursor: pointer;
   transition: transform 0.3s ease;
+z-index: 900;
+
 }
 
 #chaotic-cats-logo:hover img {
   transform: scale(1.05);
 }
 
-#chaotic-cats-body .header {
-    background-color:#7F9ED3;
-    border-bottom: 2px solid #4C78C1;
+#chaotic-cats-body .header.scrolled {
+    background-color:rgba(0,0,0,0);
+    border-bottom: 2px solid rgba(0,0,0,0); 
 }
 
+/* Chaotic Cats social tray */
+#chaotic-cats-socials-tray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 20px 0;
+}
+
+
+#chaotic-cats-socials-tray .social-link svg {
+    width: 40px;
+    height: 40px;
+    fill: #7163CA;
+    transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+#chaotic-cats-socials-tray .social-link:hover svg {
+    fill: #33ce8b;
+    transform: scale(1.1);
+}
+
+/* Description box */
+#chaotic-cats-description {
+  background: url("images/projects/chaotic-cats/chaotic-cats-textbox.png") no-repeat center center;
+  background-size: 100% 100%; 
+  padding: 2rem;  /* space for the text inside */
+  max-width: 600px;
+  margin: 20px auto;
+  z-index: 900;
+  
+  text-align: center;
+  font-family: Inconsolata, sans-serif;
+  color: #1A2C4A;
+}
+
+/* Characters flanking description/logo */
+.chaotic-cats-character {
+    position: absolute;
+    width: 500px; 
+    height: auto;
+    object-fit: contain;
+    animation: float 3s ease-in-out infinite alternate; /* subtle float */
+}
+
+/* King Cat - left */
+.chaotic-cats-character.left {
+    left: 0;
+    bottom: 10%; /* adjust vertical placement */
+    rotate: 10deg;
+}
+
+/* Mouse Wizard - right */
+.chaotic-cats-character.right {
+    rotate: -5deg;
+    right: 5%;
+    bottom: 20%; /* align vertically with King Cat */
+}
+
+#mouse-wizard {
+    width: 250px;
+}
+
+/* Float animation */
+@keyframes float {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+/* Responsive: hide characters on small screens */
+@media (max-width: 900px) {
+    .chaotic-cats-character {
+        display: none;
+    }
+}
+
+/* 
 
 /* footer */
 
@@ -711,7 +791,7 @@ html, body {
     width: 32px;
     height: 32px;
     display: block;
-    fill: #7163CA; /* Or your preferred color */
+    fill: #7163CA;
 }
 
 .social-link:hover svg {
