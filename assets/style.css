@@ -762,7 +762,113 @@ z-index: 900;
     }
 }
 
-/* 
+/* vaadin-web-app-styling */
+#springboot-vaadin-body {
+    background: url("images/gridC.png") repeat;
+    animation:scrollBackground 120s linear infinite;
+}
+
+#vaadin-title {
+    font-family: Inconsolata, sans-serif;
+    color: #1A2C4A;
+    text-align: center;
+}
+
+#vaadin-socials-tray {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0;
+    min-height: 40px; /* Ensures tray has height */
+}
+
+#vaadin-intro {
+    width: 60%;
+}
+
+@media (max-width: 1000px) {
+    #vaadin-intro{
+        width: 80%;
+        text-align: center;
+    }
+
+    #vaadin-intro img {
+        float: none;
+        display:block;
+        max-width:90%;
+        margin: 0 auto 10px;
+    }
+}
+
+
+#vaadin-second {
+    width: 50%;
+}
+
+#vaadin-second img {
+    float: right;
+    margin-left: 5px;
+}
+
+@media (max-width: 1200px) {
+    #vaadin-second{
+        width: 80%;
+        text-align: center;
+    }
+
+    #vaadin-second img {
+        float: none;
+        display:block;
+        max-width:90%;
+        margin: 0 auto 10px;
+    }
+}
+
+#vaadin-third {
+    width: 50%;
+}
+
+@media (max-width: 1100px) {
+    #vaadin-third{
+        width: 80%;
+        text-align: center;
+    }
+
+    #vaadin-third img {
+        float: none;
+        display:block;
+        max-width:90%;
+        margin: 0 auto 10px;
+    }
+}
+
+
+#vaadin-final {
+    width: 55%;
+}
+
+#vaadin-final img {
+    float: none;
+    display: block;
+    margin: 0 auto 10px;
+    width: 75%;
+}
+
+@media (max-width: 800px) {
+    #vaadin-final{
+        width: 80%;
+        text-align: center;
+    }
+
+    #vaadin-final img {
+        float: none;
+        display:block;
+        width:90%;
+        margin: 0 auto 10px;
+    }
+}
+
+
 
 /* footer */
 

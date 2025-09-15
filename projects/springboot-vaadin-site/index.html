@@ -12,5 +12,73 @@
 
 <body id="springboot-vaadin-body">
     {% include header.html %}
-    
+    <h1 id="vaadin-title">Full Stack Vaadin Web App</h1>
+    <div id="vaadin-socials-tray">
+        <a href="https://github.com/Gabriel-Wright/VaadinWebProject/tree/sunsetting" target="_blank"
+            class="social-link"> <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <title>Vaadin Web App Git Repo</title>
+                <path
+                    d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+            </svg>
+        </a>
+    </div>
+
+    <div class="image-text-strip" id="vaadin-intro">
+        <img src="{{site.baseurl}}/assets/images/projects/springboot-vaadin-site/vaadin-web-preview.png"
+            alt="Old web app main view">
+        <p>I started developing a web app as a learning activity back in February 2024. Using <strong>Spring
+            Boot</strong> for the backend and <a href="https://vaadin.com/" target=_blank>Vaadin</a> for the frontend, I aimed to create a scalable web application
+            that I could easily update and maintain. This web app project was a step up from
+            simple java command line, single service projects I had made before, my first full stack application with a
+            database.</p>
+
+    </div>
+    <h2 id="vaadin-title">Storing Web Article data in DBs</h2>
+
+    <div class="image-text-strip" id="vaadin-second">
+        <img src="{{site.baseurl}}/assets/images/projects/springboot-vaadin-site/vaadin-web-schema.png"
+            alt="Old web app schema">
+        <p> I used Spring Boot’s integration with <strong>Spring JPA</strong> to model web page data as Java entities, storing them in a
+            <strong>MySQL</strong> database. The stored data was then loaded into an article template defined with Vaadin components. At
+            the time, I didn't think about using standard text parsing formats like Markdown, so I created a simple
+            custom
+            markup language to define article content. In retrospect, it's quite cool I went out of my way to make a
+            parser--but today, I’d just use Markdown (as I do
+            for the blogs on this site).
+        </p>
+    </div>"
+
+    <h2 id="vaadin-title">Designing and Authenticating an API</h2>
+    <div class="image-text-strip" id="vaadin-third">
+        <img src="{{site.baseurl}}/assets/images/projects/springboot-vaadin-site/vaadin-authentication.png"
+            alt="Postman auth test">
+        <p> I designed a <strong>REST API</strong> to allow programmatic addition of articles and other resources. Using <strong>Spring Security</strong>,
+            I added multiple authentication filters, including form-based and token-based authentication. Upload
+            endpoints required valid <strong>JWT tokens</strong> for access.</p>
+    </div>
+
+    <h2 id="vaadin-title">Reflections</h2>
+    <div class="image-text-strip" id="vaadin-final">
+        <img src="{{site.baseurl}}/assets/images/projects/springboot-vaadin-site/vaadin-about-preview.png"
+            alt="Old web app about view">
+        <p>
+            This was my first time working on a project with multiple layers technologies, and working with web
+            technologies.
+            My lack of knowledge of on web tech stacks meant I used unorthodox tools (like Vaadin instead of a JS
+            framework) and went out of
+            my way to develop features that could've been easily streamlined(making a parser instead of markdown).
+            I am proud that I managed to deploy the web app and make it publicly available. The issue with
+            using a full stack web app for your own website though, is that there's always rooms for extra services to
+            make it more efficient.
+            Despite separating out layers - I still stored files and images within my Github Repo - obviously not
+            ideal/realistic for a production app.
+            And while I can update the site using my API - I actually ended up manually deploy the app each time I
+            wanted
+            to update it.
+            There's security issues in the code too - hardcoded my JWT, as well as other sensitive urls, keys and
+            passwords in the code.
+            But I'd say for my first go - I am pleased at what I achieved. Academically - I wasn't taught about any of
+            this, and I sought out the resources myself.
+            I was understanding now that the best way to learn with engineering is to just start building.
+        </p>
 </body>
