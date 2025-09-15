@@ -1,0 +1,82 @@
+---
+title: Projects
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Dev Projects</title>
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/style.css">
+</head>
+
+<body id="early-dev-body">
+    {% include header.html %}
+
+    <h1 id="early-dev-title">Early Development Projects</h1>
+
+    <div class="early-dev-container">
+
+        <div class="early-dev-box">
+            <h2>Bank Statement Parser</h2>
+            <a href="https://github.com/Gabriel-Wright/Downloaded-Bank-Statement-to-Formatted-Excel-document"
+                target="_blank" class="social-link"> <svg role="img" viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <title>Bank Statement Parser Git Repo</title>
+                    <path
+                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+            </a>
+            <img src="{{site.baseurl}}/assets/images/projects/early-dev-projects/statement-conversion-output.png"
+                alt="Bank Statement Parser Preview">
+            <p>For my first software development project, I created a command-line program to read bank statement files
+                downloaded from online banking sites. The program parsed the data, stored it in an <strong>SQLite</strong> database, and
+                exported it into a formatted Excel file.</p>
+            <p>This project was the first time I interacted with any build tools (I used <strong>maven</strong> for that
+                project), handled proper <strong>logging systems</strong> (log4j here), and <strong>designed a schema.</strong></p>
+            <p>I tried to do everything the "right" way. If you look at the code - it is all neatly formatted, javadoc
+                comments are present for every function and there's high test coverage. I focused really hard on making
+                the
+                design extensible,
+                ... trying my best to future proof, by following the <strong>SOLID principles</strong>. But, looking back now, it's clear
+                I
+                was overly fixated on this "perfect" modular idea. The project is over designed, the codebase is
+                fragmented with a multitude of small, specialised classes each with only one responsibility.
+                It makes it hard to follow </p>
+            <p>With regards to the output from the program itself - it does work - but I never use it... mostly because
+                of the simple design flaw that I would need to actually login online to download my bank statements. I
+                could be bothered enough to build a whole parser, but not to log into my online bank.
+            </p>
+            <p>Still, I'm happy with this project - it got me started at least :) .</p>
+
+        </div>
+
+        <div class="early-dev-box">
+            <h2>2D Game Developed in Java</h2>
+            <a href="https://github.com/Gabriel-Wright/CursorDemoGame" target="_blank" class="social-link"> <svg
+                    role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <title></title>
+                    <path
+                        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                </svg>
+            </a>
+
+            <img src="{{site.baseurl}}/assets/images/projects/early-dev-projects/game-pathfinding-gif.gif"
+                alt="2D Java Game Preview">
+            <p>I developed a basic <strong>2D game using Java (JPanel for Graphics)</strong>. The game loop engine was built from
+                scratch, but takes inspiration from various online tutorials.</p>
+            <p>In the game, the player controls a square character and a cursor, which cannot pass through walls,
+                requiring multitasking to survive. </p>
+            <p>Most of the work focused on designing the engine architecture: representing entities and levels,
+                implementing a game loop with different “game states,” and managing background tasks like scoring,
+                sounds, and events. I used a tile-based level system and a <strong>spatial hash map to optimize collision
+                detection and pathfinding</strong>.</p>
+            <p>While the game is playable, it is far from polished. The main achievement was understanding how to
+                structure a game engine, link its components, and handle real-time updates—experience that has informed
+                my later projects and deepened my appreciation for professional game development. </p>
+        </div>
+
+    </div>
+</body>

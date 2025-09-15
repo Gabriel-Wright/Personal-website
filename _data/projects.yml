@@ -12,12 +12,12 @@
   topic: "Software Development, Java, SpringBoot"
   image: "/assets/images/projects/springboot-vaadin-site/vaadin-web-preview.png"
 
-- name: "Personal Website V2"
-  url: "/projects/personal-website-v2"
-  date: 2025-09-20
-  description: "Designed and deployed a lightweight personal website (that you're reading from right now!!!) using Jekyll and GitHub Pages"
-  topic: "Software Development, HTML, CSS, JS, Jekyll"
-  image: "/assets/images/projects/personal-website-v2/personal-website-v2-preview.png"
+# - name: "Personal Website V2"
+#   url: "/projects/personal-website-v2"
+#   date: 2025-09-20
+#   description: "Designed and deployed a lightweight personal website (that you're reading from right now!!!) using Jekyll and GitHub Pages"
+#   topic: "Software Development, HTML, CSS, JS, Jekyll"
+#   image: "/assets/images/projects/personal-website-v2/personal-website-v2-preview.png"
 
 - name: "Early Software Development Projects"
   url: "/projects/early-dev-projects"

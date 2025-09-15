@@ -868,7 +868,77 @@ z-index: 900;
     }
 }
 
+/* Early dev projects */
 
+#early-dev-body {
+    background: url("images/projects/early-dev-projects/2dgame-background.png") no-repeat center center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+#early-dev-title {
+    font-family: Inconsolata, sans-serif;
+    color: #1A2C4A;
+    text-align: center;
+    margin: 30px auto;
+    padding: 16px 24px; 
+    background-color: #7F9ED3; 
+    border: 2px solid #4C78C1; 
+    border-radius: 12px; 
+    max-width: 50%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);    
+}
+
+#early-dev-body .header {
+    background-color:#7F9ED3;
+    border-bottom: 2px solid #4C78C1;
+}
+
+.early-dev-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap; 
+    width: 90%;      
+    margin: 40px auto;
+}
+
+.early-dev-box {
+    background-color: #7F9ED3;
+    border: 2px solid #4C78C1;
+    color: #1A2C4A;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 0 1 40%; /* base width 45%, don’t grow too much */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.early-dev-box img {
+    max-width: 100%; /* ensures it never overflows the box */
+    height: auto;    /* keeps aspect ratio */
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 900px) {
+    .early-dev-box {
+        flex: 0 1 90%; /* stack vertically on small screens */
+    }
+}
+.early-dev-box h2 {
+    font-family: Inconsolata, monospace;
+    color: #1A2C4A;
+    margin-bottom: 12px;
+}
+
+.early-dev-box p {
+    font-family: Inconsolata, monospace;
+    color: #1A2C4A;
+}
 
 /* footer */
 
