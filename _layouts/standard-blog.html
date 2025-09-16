@@ -1,21 +1,24 @@
 <!--HTML Template for a standard blog endpoint-->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>{{ page.title }} - {{site.title}}</title>
-        <link rel="stylesheet" href="{{site.baseurl}}/assets/style.css">
-    </head>
 
-    <body class="standard-blog-body"> 
-        {% include header.html %}
+<head>
+    <meta charset="UTF-8">
+    <title>{{ page.title }} - {{site.title}}</title>
+    <meta name="description" content="{{ page.description | default: site.description }}">
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/style.css">
+</head>
 
-        <main class="standard-blog-content">
-            {{ content }}
-        </main>
+<body class="standard-blog-body">
+    {% include header.html %}
 
-        <footer class="footer">
-            {% include socials.html %}
-        </footer>
-    </body>
+    <main class="standard-blog-content">
+        {{ content }}
+    </main>
+
+    <footer class="footer">
+        {% include socials.html %}
+    </footer>
+</body>
+
 </html>

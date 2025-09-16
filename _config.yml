@@ -8,5 +8,6 @@ collections:
   blogs:
     output: true
     permalink: /blogs/:name/
-
+plugins:
+  - jekyll-sitemap
   
