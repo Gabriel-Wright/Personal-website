@@ -558,6 +558,12 @@ html, body {
     margin: 24px 0;
 }
 
+@media (max-width: 1000px) {
+  .pdf-container {
+    display: none;
+  }
+}
+
 .pdf {
     border: 4px solid #4C78C1;
     border-radius: 5px;
