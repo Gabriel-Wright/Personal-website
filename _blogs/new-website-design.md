@@ -8,7 +8,7 @@ description: Explanation of the design decisions made for this website, and the 
 
 # What's needed for a website?
 
-The [previous site]({{site.baseurl}}/projects/springboot-vaadin-site) I developed was bulky - every update felt like surgery. The site relied on SpringBoot's embedded tomcat server and communicated with a Database Layer to represent articles. From when I first deployed the site, it was a hassle to update, costly to run and full on unnecessar complexity. Great for getting better at development, but not great for a personal blog. 
+The [previous site]({{site.baseurl}}/projects/springboot-vaadin-site) I developed was bulky - every update felt like surgery. The site relied on SpringBoot's embedded tomcat server and communicated with a Database Layer to represent articles. From when I first deployed the site, it was a hassle to update, costly to run and full on unnecessary complexity. Great for getting better at development, but not great for a personal blog. 
 
 I knew at some point my personal site needed to change and this week I got the opportunity to lock in and make that change. 
 I've been cat-sitting my friend's cat Simba!! And together we tag teamed creating this site.
@@ -29,7 +29,7 @@ pushed up his glasses and listed three issues:
 
 I was shocked, this was the first time I had heard Simba speak. His voice was nasally, but I still liked it.
 
-Simba was right! A DB/API setup was cool for learning full stack, but it slowed me down durisng production use. 
+Simba was right! A DB/API setup was cool for learning full stack, but it slowed me down during production use. 
 I kept adding features that might make adding content easier, instead of actually adding content.
 
 ## Design Choices
@@ -73,7 +73,7 @@ Here `layout: standard-blog`, tells Jekyll to render the markdown inside `_layou
 
 This way, every blog post follows the same layout without needing a DB or custom parser.
 
-The metadata from all of the blogs can be also be grouped as a collection. This allows all of the blogs to be listed in datesorted order under the `/blogs/` collection.
+The metadata from all of the blogs can be also be grouped as a collection. This allows all of the blogs to be listed in date sorted order under the `/blogs/` collection.
 
   ```
   collections:
