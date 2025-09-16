@@ -561,7 +561,9 @@ html, body {
 .pdf {
     border: 4px solid #4C78C1;
     border-radius: 5px;
-}/* Header Styling */
+}
+
+/* Header Styling */
 
 .header {
     background-color: rgba(0,0,0,0);
