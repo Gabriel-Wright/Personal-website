@@ -402,6 +402,13 @@ html, body {
     max-width: 40%;
 }
 
+@media screen and (max-width: 800px) {
+    .standard-blog-content img.small-image {
+        max-width: 60%;
+    }
+    
+}
+
 .standard-blog-content img.medium-image {
     max-width: 60%;
 }
@@ -433,7 +440,7 @@ html, body {
     font-size: 1em;
     overflow-x: auto;
     line-height: 1.6;
-    margin: 1em 0;
+    margin: 1em;
     box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
 
