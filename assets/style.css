@@ -989,3 +989,9 @@ z-index: 900;
     fill: #33ce8b; /* Change color on hover */
     transition: fill 0.3s ease;
 }
+
+.youtube-player {
+    max-width: 80%;
+    display:block;
+    margin: 0 auto;
+}
