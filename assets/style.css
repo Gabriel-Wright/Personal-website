@@ -108,7 +108,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     background: url("images/gridC.png") repeat;
-    animation:scrollBackground 120s linear infinite;
+    animation:scrollBackground 240s linear infinite;
 }
 
 #main-body .socials-tray{
@@ -216,7 +216,7 @@ html, body {
 
 #projects-list-body {
     background: url("images/gridC.png") repeat;
-    animation:scrollBackground 120s linear infinite;
+    animation:scrollBackground 240s linear infinite;
 }
 
 #projects-title {
@@ -305,7 +305,7 @@ html, body {
 
 #blogs-list-body {
     background: url("images/gridC.png") repeat;
-    animation:scrollBackground 120s linear infinite;
+    animation:scrollBackground 240s linear infinite;
 }
 
 #blog-posts-title {
@@ -370,7 +370,7 @@ html, body {
 
 .standard-blog-body { 
     background: url("images/gridC.png") repeat;
-    animation:scrollBackground 120s linear infinite;
+    animation:scrollBackground 240s linear infinite;
 }
 
 .standard-blog-content {
@@ -456,7 +456,7 @@ html, body {
 
 #about-body {
     background: url("images/gridC.png") repeat;
-    animation:scrollBackground 120s linear infinite;
+    animation:scrollBackground 240s linear infinite;
 }
 
 .image-text-strip {
@@ -780,7 +780,7 @@ z-index: 900;
 /* vaadin-web-app-styling */
 #springboot-vaadin-body {
     background: url("images/gridC.png") repeat;
-    animation:scrollBackground 120s linear infinite;
+    animation:scrollBackground 240s linear infinite;
 }
 
 #vaadin-title {
@@ -825,7 +825,7 @@ z-index: 900;
     margin-left: 5px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 2400px) {
     #vaadin-second{
         width: 80%;
         text-align: center;
