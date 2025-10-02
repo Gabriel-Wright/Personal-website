@@ -11,7 +11,7 @@ description: Reflections after spending some time alone
 As of right now, the two people I see the most of are definitely **my flatmate and my girlfriend**.
 
 Around 2 weeks ago - both of them went away. My flatmate went on a religious retreat, my girlfriend visited her sister.
-I was made redundant around a month ago - it's unfortunate but my previous company was a startup, so it wasn't too unexpected. In the immediate aftermath of being made redundant, both my flatmate and girlfriend helped fill the void and I had a handful of pre-planned events and tasks to keep me busy: filming my first "short-film" Tash & Sash, visiting friends, going to my friend's [album launch](!https://thebandart.bandcamp.com/album/slap-bang-wallop).
+I was made redundant around a month ago - it's unfortunate but my previous company was a startup, so it wasn't too unexpected. In the immediate aftermath of being made redundant, both my flatmate and girlfriend helped fill the void and I had a handful of pre-planned events and tasks to keep me busy: filming my first "short-film" Tash & Sash, visiting friends, going to my friend's [album launch](https://thebandart.bandcamp.com/album/slap-bang-wallop).
 
 But once August was over and both my flatmate and girlfriend went away for their respective trips, I was left with a largely empty calendar and very quiet flat to watch over. So much time to work with, but because of the pressures from being umemployed - it didn't really feel like "free" time.
 
