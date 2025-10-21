@@ -12,6 +12,13 @@
   topic: "Software Development, Java, SpringBoot"
   image: "/assets/images/projects/springboot-vaadin-site/vaadin-web-preview.png"
 
+- name: "Pomodoro React Web App"
+  url: "https://gabriel-wright.github.io/React-Pomo/"
+  date: 2025-10-01
+  description: "Developed a Pomodoro Timer web application using React.js and deployed on GitHub Pages"
+  topic: "Software Development, React.js, JavaScript"
+  image: "/assets/images/projects/pomodoro-react-app/Pomo-React-Preview.png"
+
 # - name: "Personal Website V2"
 #   url: "/projects/personal-website-v2"
 #   date: 2025-09-20
