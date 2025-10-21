@@ -3,3 +3,7 @@ _site/
 Gemfile
 Gemfile.lock
 assets/.DS_Store
+
+vendor/
+tmp/
+.bundle/
