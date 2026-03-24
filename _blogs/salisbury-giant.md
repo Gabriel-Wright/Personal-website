@@ -68,7 +68,7 @@ One reason for Salisbury not being bombed during WW2 is supposedly because Hitle
 
 ## Salisbury Museum
 
-Across the close from Salisbury Cathedral (across the outside green) is the Salisbury Museum. I went recently and enjoyed it for the most part. Very ominous memories associated with it from my childhood. It's just a museum full of knicknacks from around the Salisbury / Wiltshire area, I remember it vividly as dim and foreboding.
+Across the close from Salisbury Cathedral (across the outside green) is the Salisbury Museum. I have very ominous memories associated with it from my childhood. It's just a museum full of knicknacks from around the Salisbury / Wiltshire area, I remember it vividly as dim and foreboding.
 
 It's all inside a large manor house. Rustic tudor like interiror with white walls. I went recently and it was largely compact, I remembered it being far more winding. Maybe they rearranged it, or maybe it's just that everything feels bigger when you're little.
 

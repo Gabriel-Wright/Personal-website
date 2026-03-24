@@ -40,7 +40,7 @@ My internal pressure was building, momentum was growing - I was "locked in". But
 
 ## Time pressure
 
-I should emphasise at this point that I am _not_ generally a "lonely" person. I feel off writing a blog that characterises this recent 2 weeks as "isolation" because I recognise that there's people who are truly isolated and don't have personal connections to reach out to. It wasn't like I did no socialising over the last 2 weeks. I met up with friends, went to a drama class, watched films with my sister, played games online with friends. Also I wasn't totally alone, I had my flatmate's cat simba to keep me company:
+I should emphasise at this point that I am _not_ generally a "lonely" person. I feel off writing a blog that characterises this recent 2 weeks as "isolation" because I recognise that there's people who are truly isolated and don't have personal connections to reach out to. It wasn't like I did no socialising over the last 2 weeks. I met up with friends, went to a drama class, watched films with my sister, played games online with friends. Also I wasn't totally alone even in the flat, I had my flatmate's cat simba to keep me company:
 
 ![Cute photo of simba]({{site.baseurl}}/assets/images/blogs/simba-blog2.JPG){:.small-image}
 
@@ -51,7 +51,7 @@ Applying for jobs is a goal with huge scope. It feels like there's always more y
 My sleep was poor. At night I was paranoid. Even when spending time to relax, there's was this heavy feeling of dissatisfaction - that I should be working harder. Even if it isn't directly on software development tasks, I should be editing Tash & Sash, working on my script for my next short film. It felt like I was on a treadmill - and if I don't keep actively pushing forward then I would be _regressing_.
 
 There's that tinge of frustration that comes from waiting for job applications as well.
-Recently I got rejected from a Software Engineering role at the final stage. My feedback was that I underperformed on one of the coding exercises. It's unfortunate - but I was half expecting it, there was a slight choke on the day. It's all practice, and now I have come through to the other side appreciative of what I gained from the process. But while going through that process of waiting and then facing rejection was definitely tough. I was very keen on the role, and quickly become attached to it. The wait between my final interview and the result was about a week, which from what I understand is standard, but I found it **agonising**.
+Recently I got rejected from a Software Engineering role at the final stage. My feedback was that I underperformed on one of the coding exercises. It's unfortunate - but I was half expecting it, there was a slight choke on the day. It's all practice, and now I have come through to the other side appreciative of what I gained from the process. But going through that process of waiting and then facing rejection was definitely tough. I was very keen on the role, and quickly become attached to it. The wait between my final interview and the result was about a week, which from what I understand is standard, but I found it **agonising**.
 
 My brain was constantly ticking in the background, ruminating over little slip ups I made in the interviews. Minor inconveniences at that time lit up my soul. I was making Dahl and I spilt lentils all over the floor. Looking down at the pulses littering the floor, I was fuming - but it wasn't just anger, there was this wildly inflamed sense of grief. I felt like such a failure.
 

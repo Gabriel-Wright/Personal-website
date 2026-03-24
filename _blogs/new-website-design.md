@@ -11,7 +11,7 @@ description: Explanation of the design decisions made for this website, and the 
 The [previous site]({{site.baseurl}}/projects/springboot-vaadin-site) I developed was bulky - every update felt like surgery. The site relied on SpringBoot's embedded tomcat server and communicated with a Database Layer to represent articles. From when I first deployed the site, it was a hassle to update, costly to run and full on unnecessary complexity. Great for getting better at development, but not great for a personal blog.
 
 I knew at some point my personal site needed to change and this week I got the opportunity to lock in and make that change.
-I've been cat-sitting my friend's cat Simba!! And together we tag teamed creating this site.
+I've been cat-sitting Simba!! And together we tag teamed creating this site.
 
 ![Photo of simba]({{site.baseurl}}/assets/images/blogs/simba.JPG){:.small-image}
 
