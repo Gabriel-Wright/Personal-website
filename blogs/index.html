@@ -16,7 +16,7 @@ title: Blog
 <body id="blogs-list-body">
     {% include header.html %}
 
-    <h1 id="blog-posts-title">Blog Posts</h1>
+    <h1 id="blog-posts-title">Blogs</h1>
     <div id="blog-list-container">
         {% assign sorted_blogs = site.blogs | sort: "date" | reverse %}
         {% for blog in sorted_blogs %}

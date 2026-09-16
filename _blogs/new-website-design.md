@@ -1,10 +1,10 @@
----
+<!-- --- Removing This article from being displayed directly.
 layout: standard-blog
 title: What's needed for a website?
 date: 2025-09-16
 topics: Personal, Software Development
-description: Explanation of the design decisions made for this website, and the overall philosophy employed when designing this website.
----
+description: Explanation of the design decisions made for this website.
+--- -->
 
 # What's needed for a website?
 

@@ -3,7 +3,7 @@ layout: standard-blog
 title: Salisbury Connection
 date: 2025-09-28
 topics: Personal
-description: Thinking about Salisbury's History
+description: Thinking about Salisbury's History.
 ---
 
 # Who is the Salisbury Giant?

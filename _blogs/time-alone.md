@@ -3,7 +3,7 @@ layout: standard-blog
 title: Thoughts on isolation and self-worth
 date: 2025-09-21
 topics: Personal, Software Development, Film-making
-description: Reflections after spending some time alone
+description: Reflections after spending some time alone.
 ---
 
 # Being alone

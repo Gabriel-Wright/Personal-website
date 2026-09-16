@@ -1,16 +1,18 @@
 - name: "Chaotic Cats"
-  url: "/projects/chaotic-cats"
+  url: "/software-projects/chaotic-cats"
   date: 2025-02-01
   description: "Released a Multiplayer Party Game on Steam with friends"
   topic: "Game Development, Unity, C#"
   image: "/assets/images/projects/chaotic-cats/chaotic-cats-preview.jpg"
 
-- name: "SpringBoot Vaadin Full Stack Web App"
-  url: "/projects/springboot-vaadin-site"
-  date: 2024-04-26
-  description: "Created a full stack web application using SpringBoot and Vaadin"
-  topic: "Software Development, Java, SpringBoot"
-  image: "/assets/images/projects/springboot-vaadin-site/vaadin-web-preview.png"
+# Commenting this out to hide earlier projects from website.
+
+# - name: "SpringBoot Vaadin Full Stack Web App"
+#   url: "/projects/springboot-vaadin-site"
+#   date: 2024-04-26
+#   description: "Created a full stack web application using SpringBoot and Vaadin"
+#   topic: "Software Development, Java, SpringBoot"
+#   image: "/assets/images/projects/springboot-vaadin-site/vaadin-web-preview.png"
 
 - name: "Pomodoro React Web App"
   url: "https://gabriel-wright.github.io/React-Pomo/"
@@ -18,7 +20,6 @@
   description: "Developed a Pomodoro Timer web application using React.js and deployed on GitHub Pages"
   topic: "Software Development, React.js, JavaScript"
   image: "/assets/images/projects/pomodoro-react-app/Pomo-React-Preview.png"
-
 # - name: "Personal Website V2"
 #   url: "/projects/personal-website-v2"
 #   date: 2025-09-20
@@ -26,9 +27,11 @@
 #   topic: "Software Development, HTML, CSS, JS, Jekyll"
 #   image: "/assets/images/projects/personal-website-v2/personal-website-v2-preview.png"
 
-- name: "Early Software Development Projects"
-  url: "/projects/early-dev-projects"
-  date: 2023-08-15
-  description: "Developed smaller projects to learn programming fundamentals such as a 2d game and Bank Statement Parser"
-  topic: "Software Development, Game Development, Java"
-  image: "/assets/images/projects/early-dev-projects/2d-game-preview.png"
+# Commenting out to hide these earlier projects.
+
+# - name: "Early Software Development Projects"
+#   url: "/projects/early-dev-projects"
+#   date: 2023-08-15
+#   description: "Developed smaller projects to learn programming fundamentals such as a 2d game and Bank Statement Parser"
+#   topic: "Software Development, Game Development, Java"
+#   image: "/assets/images/projects/early-dev-projects/2d-game-preview.png"
