@@ -7,5 +7,3 @@ description: Recollections / reflecting on a childhood friend.
 --- -->
 
 # My swearing friend.
-
-A flick of the wrist and I kill myself lololololololol
