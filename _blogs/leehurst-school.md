@@ -2,7 +2,7 @@
 layout: standard-blog
 title: Yellow flags
 date: 2026-09-19
-topics: Short scene
+topics: Short scene, Salisbury
 description: A short scene inspired by my impressions of Leehurst Swan school in Salisbury.
 ---
 
