@@ -34,13 +34,13 @@ The floor beneath me does extend forever. The white marble drops off, at which p
 
 As waves, they paint the air, leaving new patches of pure white marble floor in their wake. The ghosts themselves are uniform in their appearance but their brushes and painting techniques vary wildly. Some move jerkily, wielding thick handled brushes with dull bristles, while others glide delicately, caressing the air with compact brushes and soft strokes. No matter each ghost's approach the resulting marble floors they create are of the most outstanding level of quality.
 
-One of the ghostly figures gently drifts towards me. The white veil draping its body is loose and wavy. The figures have an anthropomorphic build. I note in myself an inclination to identify the gender or characteristics of the figure. At times I am able to spot a curve from the figures' solid form where the veil is taut - but each time I get a look the form beneath the veil it seems to be different, its mass is constantly in flux. They are meshes of clay that haven't yet been set.
+One of the ghostly figures gently drifts towards me. The white veil draping its body is loose and wavy. The figures have an anthropomorphic build. I note in myself an inclination to identify the gender or characteristics of the figure. At times I am able to spot a curve from the figures' solid form where the veil is taut - but each time I get a look at the form beneath the veil it seems to be different, its mass is constantly in flux. They are meshes of clay that haven't yet been set.
 
-An oval mask with a vertical line down the middle covers what you could call the "face" of the figure. The figure twists to orient itself with myself on the ground and an ethereal voice manifests in my head, "Do not worry. We are here for you now." The figure slides its veil beneath my knees and around my back, cradling me. Effortlessly, it raises me back into my seat and spreads itself to block my line of sight of the man.
+An oval mask with a vertical line down the middle covers what you could call the "face" of the figure. The figure twists to orient itself with me on the ground and an ethereal voice manifests in my head, "Do not worry. We are here for you now." The figure slides its veil beneath my knees and around my back, cradling me. Effortlessly, it raises me back into my seat and spreads itself to block my line of sight of the man.
 
 The figure brings out its brush from beneath its veil and starts to paint. The veil is tight around where the figure grips the brush and for a fleeting second I see my mother's fingers in how it holds the brush.
 
-"Have we met before?" I ask.
+"Have we met before?" I ask.  
 "No. But it is common to feel that way." the figure responds.
 
 A book floats towards me from where the figure has finished painting. The back cover of the book is turned upwards. From my brief glance, I can tell it is a hardback with red fabric and that there is medium size block of black text for the blurb. Quite understandably I am very hesitant to investigate further. The figure picks up on this and draws itself closer to me, "It is okay. Turn to the cover."
@@ -53,28 +53,28 @@ I move to place my brush on the cover. Should I let my hand go free and feral, o
 
 To the left of the figure's veil I see that the man is now standing. The figure darts again to obscure him from vision, moving like a puppet anxiously yanked to the side by invisible strings.
 
-"Do not listen to him. He is not well." The figure retorts, its voice notably less calm than before. The man grabs hold of the figures' veil and violently steps into its mass. He forcibly tears its down and I watch as the life drains from the figure. The figures' mass dissipates, leaving a limp curtain resting on the floor.
+"Do not listen to him. He is not well." The figure retorts, its voice noticably less calm than before. The man grabs hold of the figures' veil and violently steps into its mass. He forcibly tears its down and I watch as the life drains from the figure. The figures' mass dissipates, leaving a limp curtain resting on the floor.
 
-The man's gaping, bloodshot eyes lock onto me. His book hangs to his side from one page, pinched between his finger tips. "Please, let me see my book."
+The man's gaping, bloodshot eyes lock onto me. His book hangs to his side from one page, pinched between his finger tips. "Please, let me see my book."  
 Your book? I apprehensively and inadvertently communicate back to him with a narrowing of my brow.  
-"Sir please. There has been a mixup, you have my book."
-"What about the book you are holding?" I say in rejection.
-"Yes I have this book, but you see it is not MY book. That is why I am in such pain." He pauses.
+"Sir please. There has been a mixup, you have my book."  
+"What about the book you are holding?" I say in rejection.  
+"Yes I have this book, but you see it does not actually belong to me. That is why I am in such pain." He pauses.
 
 "Please, let us both at least see your book so we can confirm whether there is an error."
 
-Before I can make any decision, the man lunges forward and claws at the cover of my book. On the man's contact with the book, the previously limp figure whips into the air above, like a kite jerked into the sky by a strong gust.
+Again, before I can make any decision, the man lunges forward and claws at the cover of my book. On the man's contact with the book, the previously limp figure whips into the air above, like a kite jerked into the sky by a strong gust.
 
 Amidst the shock, one of the other figures drops their brush at the edge of the marble. Dark, cracked asphalt spawns where their paint has smudged the air. Out of the cracks geysers of dirty honey start to spew. The figure responsible recoils and hides its face in its hands, "I'm sorry!" its distorted voice loudly cries in my mind.
 
 The neighboring figures flock to aid of the guilt ridden figure. Honey has stained the bottom of its veil. The others drag the figure free from the rising pool of honey and begin to comfort it. Some try to scrape the honey off using their brushes, to no avail. They console the infected figure in unison, "We are here for you. Do not cry!"
 
-I fall backwards off my chair. The man clambers over me, begging and breathing heavily. He stammers, "I'm sorry-- I- I need this!" I slip my leg out from his sweaty grip and hurriedly make my retreat. Near the infected geyser, one of the figures beckons me over - their arms open wide. I hug my book close and sprint as hard as I can into the figure's embrace. The man's pants grow louder and louder behind.
+I fall backwards off my chair. The man clambers over me, begging and breathing heavily. He stammers, "I'm sorry-- I- I need this!" I slip my leg out from his sweaty grip and hurriedly make my retreat. Near the ghastly sticky honey geyser, one of the figures beckons me over with their arms open wide. I hug my book close and sprint as hard as I can into the figure's embrace. The man's pants grow louder and louder behind.
 
-The figures, now in a frenzy, chaotically huddle around me. They rapidly weave around, creating a protective storm of white fluttering sheets. The man cannot breach the barrier they have made for me. Exasperatingly he bellows, "Please! This can't be all there is!" Through a small opening in the cyclone of veils, I see the defeated man. He stands at the cliff edge, solemnly and looking out at me. We share a moment of connection.
+The figures, now in a frenzy, chaotically huddle around me. They rapidly weave around, creating a protective storm of white fluttering sheets. The man cannot breach the barrier they have made for me. Exasperated, he bellows, "Please! This can't be all there is!" Through a small opening in the cyclone of veils, I see the defeated man. He stands at the cliff edge, solemnly looking out at me. We share a moment of connection. I sense regret in his thoughts.
 
 I realise that the figures have taken me away from the marble floor, they have carried me in this blizzard and I now stand floating above the void. I drop to my knees and start to cry. The man has returned to being lost in his book. The artwork from his book, although harder to make out from across the void - still creates a residual pain I cannot distance myself from. I look down at my own book and see that part of the image on the front cover has been filled in. One of the figures pats my head with their veil, and wipes my tears.
 
-In the corner of my front cover there is now a small illustration. A small girl in a winter coat is treads across a snowy field. The figures compel me to turn to the first page. The opening paragraph reads:
+In the corner of my front cover there is now a small illustration. A small girl in a winter coat is treading across a snowy field. I cannot see her expression. The figures compel me to turn to the first page of my book. The opening paragraph reads:
 
-_You were born a child of a mother and father. Though you grew to inherit their traits, you appreciated from birth that we all begin blank slates. In your youth, it was your judgement that we are all accountable for how our soul is coloured, though you did not always apply that same standard to others. Is it always compassionate to give others leeway based on how the world has treated them, or is it reductive? You want to believe that you enmeshed your ego with martyrdom, but how will you cope when you realise the world has afflicted that trait onto you?_
+_You were born a child of a mother and father. Though you grew to inherit their traits, you appreciated from birth that we all begin blank slates. In your youth, it was your judgement that we are all accountable for how our soul is coloured, though you did not always apply that same standard to others. Is it always compassionate to give others leeway based on how the world has treated them, or can it be reductive? You want to believe that you enmeshed your ego with martyrdom, but how will you cope when you realise the world has afflicted that trait onto you?_
